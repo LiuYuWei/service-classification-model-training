@@ -1,0 +1,5 @@
+project:
+  path: '' #your project develope path
+
+sqlite:
+  file_path: "data/database/classification_model_training.db"
