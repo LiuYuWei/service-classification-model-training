@@ -7,6 +7,7 @@ from fastapi.responses import JSONResponse
 # import project package.
 from config.config_setting import ConfigSetting
 from src.blueprint.api_router import create_api_router
+from src.blueprint.svm_router import create_svm_router
 
 def create_app(unittest=False):
     """The function to creates the fastapi service."""
@@ -19,6 +20,9 @@ def create_app(unittest=False):
 
     api_router = create_api_router()
     app.include_router(api_router, prefix="/api", tags=["api"])
+    
+    svm_router = create_svm_router()
+    app.include_router(svm_router, prefix="/svm", tags=["svm"])
 
     log.info("Start the fastapi service.")
     return app
