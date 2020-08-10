@@ -21,3 +21,7 @@ class SvmClassificationApp:
     def svm_classification(self, x_value, y_value):
         payload = self.svm_classification_service.svm_training(x_value, y_value, kernel="linear")
         return payload
+    
+    def delete_svm_model(self, model_path):
+        payload = self.svm_classification_service.remove_svm_model(model_path)
+        return payload

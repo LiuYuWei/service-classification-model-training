@@ -9,7 +9,7 @@ services:
     env_file:
       - docker/.env
     volumes:
-      - /workspace/data:/home/app/workdir/data/database
+      - /workspace/data:/home/app/workdir/data
 
   sqlite-web:
     restart: always
@@ -19,4 +19,4 @@ services:
     env_file:
       - docker/.env
     volumes:
-      - /workspace/data:/data
+      - /workspace/data/database:/data

@@ -48,7 +48,7 @@ EXPOSE 5000
 ENV PROJECT_PATH=$APP_HOME
 
 #Change User - app
-# USER app
+USER app
 
 #Run api code
 ENTRYPOINT [ "/bin/bash" , "-c" , "python3 main.py --framework fastapi"]

@@ -11,3 +11,8 @@ class SvmClassificationBaseModel(BaseModel):
     n_support: list
     timestamp: str
     number_data: int
+    model_path: str
+
+class MessageBaseModel(BaseModel):
+    message: str
+    status_code: int
