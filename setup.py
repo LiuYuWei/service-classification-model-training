@@ -10,12 +10,12 @@ with open('LICENSE') as f:
     license_text = f.read()
 
 setup(
-    project_name='service-classification-model-training',
+    project_name='service-ml-model-training-evaluation',
     project_version='0.0.4',
     description='In this project, we want to build the platform to train the classification model.',
     long_description=readme_text,
     author='Simon Liu',
-    url='https://github.com/LiuYuWei/service-classification-model-training',
+    url='https://github.com/LiuYuWei/service-ml-model-training-evaluation',
     license=license_text,
     packages=find_packages(exclude=('tests'))
 )

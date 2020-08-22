@@ -1,2 +1,2 @@
 cd ..
-docker build -t="service-classification-model-training" -f ./docker/fastapi/Dockerfile .
+docker build -t="service-ml-model-training-evaluation" -f ./docker/fastapi/Dockerfile .

@@ -1,5 +1,5 @@
-# service-classification-model-training
-service-classification-model-training
+# service-ml-model-training-evaluation
+service-ml-model-training-evaluation
 
 # service-restfulapi-evaluation
 You can use this service to training the model.
