@@ -11,7 +11,7 @@ with open('LICENSE') as f:
 
 setup(
     project_name='service-ml-model-training-evaluation',
-    project_version='0.0.4',
+    project_version='0.0.5',
     description='In this project, we want to build the platform to train the classification model.',
     long_description=readme_text,
     author='Simon Liu',
